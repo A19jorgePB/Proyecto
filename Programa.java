@@ -2,10 +2,7 @@ import java.util.Calendar;
 
 public class Programa {
 	
-	public double calculaElDoble(double numero) {
-		return 2 * numero;
-
-	}
+	
 	
 	public String queHacerEnCasa(String dia) {
 		switch (dia) {
@@ -30,7 +27,7 @@ public class Programa {
 
 	public static void main(String[] args) {
 		Programa p= new Programa ();
-		System.out.println(p.calculaElDoble(2));
+		//System.out.println(p.calculaElDoble(2));
 	    	System.out.println(p.queHacerEnCasa("Lungsges"));
 
 	}
